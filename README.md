@@ -11,7 +11,6 @@ A machine learning project to predict survival on the Titanic using passenger da
 - [Quick Start](#quick-start)
 - [Modeling & Results](#modeling--results)
 - [Reproducing the Results](#reproducing-the-results)
-- [Repository Structure](#repository-structure)
 - [Contributing](#contributing)
 - [License](#license)
 - [Contact](#contact)
@@ -118,21 +117,6 @@ pip install -r requirements.txt
 3. Place datasets in `data/` and run the training script or notebooks as shown in Quick Start.
 
 4. Save model artifacts to `models/` and outputs to `predictions/` for inspection.
-
-## Repository Structure
-
-A suggested structure (update if your repository differs):
-
-````markdown
-├── data/                  # datasets (not checked in)
-├── notebooks/             # EDA and modeling notebooks
-├── src/                   # training and inference scripts
-├── models/                # saved model artifacts
-├── predictions/           # generated submission files or predictions
-├── requirements.txt
-├── README.md
-└── .gitignore
-````
 
 ## Contributing
 
